@@ -1,0 +1,82 @@
+----------------------------------------------------------------------------------
+testvectors:
+----------------------------------------------------------------------------------
+Spongent-88:
+g++ Spongent.cpp -O3 -D_SPONGENT088080008_ -o SPONGENT-088-080-008
+g++ Spongent.cpp -O3 -D_SPONGENT088176088_ -o SPONGENT-088-176-088
+
+Spongent-128:
+g++ Spongent.cpp -O3 -D_SPONGENT128128008_ -o SPONGENT-128-128-008
+g++ Spongent.cpp -O3 -D_SPONGENT128256128_ -o SPONGENT-128-256-128
+
+Spongent-160:
+g++ Spongent.cpp -O3 -D_SPONGENT160160016_ -o SPONGENT-160-160-016
+g++ Spongent.cpp -O3 -D_SPONGENT160160080_ -o SPONGENT-160-160-080
+g++ Spongent.cpp -O3 -D_SPONGENT160320160_ -o SPONGENT-160-320-160
+
+Spongent-224:
+g++ Spongent.cpp -O3 -D_SPONGENT224224016_ -o SPONGENT-224-224-016
+g++ Spongent.cpp -O3 -D_SPONGENT224224112_ -o SPONGENT-224-224-112
+g++ Spongent.cpp -O3 -D_SPONGENT224448224_ -o SPONGENT-224-448-224
+
+Spongent-256:
+g++ Spongent.cpp -O3 -D_SPONGENT256256016_ -o SPONGENT-256-256-016
+g++ Spongent.cpp -O3 -D_SPONGENT256256128_ -o SPONGENT-256-256-128
+g++ Spongent.cpp -O3 -D_SPONGENT256512256_ -o SPONGENT-256-512-256
+
+
+----------------------------------------------------------------------------------
+detailed output:
+----------------------------------------------------------------------------------
+Spongent-88:
+g++ Spongent.cpp -O3 -D_SPONGENT088080008_ -D_PrintState_ -o SPONGENT-088-080-008
+g++ Spongent.cpp -O3 -D_SPONGENT088176088_ -D_PrintState_ -o SPONGENT-088-176-088
+
+Spongent-128:
+g++ Spongent.cpp -O3 -D_SPONGENT128128008_ -D_PrintState_ -o SPONGENT-128-128-008
+g++ Spongent.cpp -O3 -D_SPONGENT128256128_ -D_PrintState_ -o SPONGENT-128-256-128
+
+Spongent-160:
+g++ Spongent.cpp -O3 -D_SPONGENT160160016_ -D_PrintState_ -o SPONGENT-160-160-016
+g++ Spongent.cpp -O3 -D_SPONGENT160160080_ -D_PrintState_ -o SPONGENT-160-160-080
+g++ Spongent.cpp -O3 -D_SPONGENT160320160_ -D_PrintState_ -o SPONGENT-160-320-160
+
+Spongent-224:
+g++ Spongent.cpp -O3 -D_SPONGENT224224016_ -D_PrintState_ -o SPONGENT-224-224-016
+g++ Spongent.cpp -O3 -D_SPONGENT224224112_ -D_PrintState_ -o SPONGENT-224-224-112
+g++ Spongent.cpp -O3 -D_SPONGENT224448224_ -D_PrintState_ -o SPONGENT-224-448-224
+
+Spongent-256:
+g++ Spongent.cpp -O3 -D_SPONGENT256256016_ -D_PrintState_ -o SPONGENT-256-256-016
+g++ Spongent.cpp -O3 -D_SPONGENT256256128_ -D_PrintState_ -o SPONGENT-256-256-128
+g++ Spongent.cpp -O3 -D_SPONGENT256512256_ -D_PrintState_ -o SPONGENT-256-512-256
+
+----------------------------------------------------------------------------------
+run:
+----------------------------------------------------------------------------------
+./SPONGENT-XXX-XXX-XXX
+
+Spongent-88:
+./SPONGENT-088-080-008 
+./SPONGENT-088-176-088 
+
+Spongent-128:
+./SPONGENT-128-128-008 
+./SPONGENT-128-256-128 
+
+Spongent-160:
+./SPONGENT-160-160-016 
+./SPONGENT-160-160-080 
+./SPONGENT-160-320-160 
+
+Spongent-224:
+./SPONGENT-224-224-016 
+./SPONGENT-224-224-112 
+./SPONGENT-224-448-224 
+
+Spongent-256:
+./SPONGENT-256-256-016 
+./SPONGENT-256-256-128 
+./SPONGENT-256-512-256 
+
+
